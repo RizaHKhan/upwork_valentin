@@ -1,24 +1,11 @@
-<div class="container-fluid bg-dark">
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand text-uppercase text-white font-weight-bold" href="#">Clever Plays</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-white font-weight-bold" href="#">games</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-white font-weight-bold" href="#">news</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-white font-weight-bold" href="#">about us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-white font-weight-bold" href="#">contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<div class="container-fluid bg-dark p-0" id="background">
+  <%= video_tag(
+        'space.mp4',
+        id: 'background',
+        autoplay: true,
+        loop: true,
+        muted: true,
+        poster: 'space.mp4'
+      ) %>
+      <%= render 'shared/nav' %>
 </div>
