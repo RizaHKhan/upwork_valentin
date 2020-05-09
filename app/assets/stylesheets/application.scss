@@ -2,7 +2,6 @@
 @import "font-awesome";
 
 body {
-  overflow-x: hidden;
 }
 
 #background {
@@ -17,6 +16,7 @@ body {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: contain;
+  overflow: hidden;
 }
 
 .bg-black {
@@ -25,4 +25,6 @@ body {
 
 .h-100vh {
   height: 100vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
 }
