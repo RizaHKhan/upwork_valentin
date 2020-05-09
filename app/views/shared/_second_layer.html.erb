@@ -1,3 +1,12 @@
-<div class="container-fluid h-100vh d-flex">
-    <a href="#" class="btn btn-outline-secondary bg-dark m-auto text-light">Watch Teaser</a>
+<div class="container-flex h-100vh d-flex flex-column">
+  <%= render 'shared/cta_buttons' %>
+  <div class="container-flex bg-dark p-5">
+    <div class="col-md">
+      <p class="text-uppercase text-white">Receive News About Our Games</p>
+    </div>
+    <div class="col-md bg-light">
+      <input type="email">
+      <a href="" class="btn btn-outline-secondary bg-black text-white">Subscribe</a>
+    </div>
   </div>
+</div>

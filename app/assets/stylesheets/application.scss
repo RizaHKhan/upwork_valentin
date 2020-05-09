@@ -1,4 +1,9 @@
 @import "bootstrap/scss/bootstrap";
+@import "font-awesome";
+
+body {
+  overflow-x: hidden;
+}
 
 #background {
   position: fixed;
